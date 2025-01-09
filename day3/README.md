@@ -1,7 +1,5 @@
 # Sports Data Lake
 --
-# NBA Game Day Notifications / Sports Alerts System
----
 
 ### Overview
 This project creates an Amazon S3 bucket to store raw and processed data NBA player data. We then uploads sample NBA data (in JSON format) to our S3 bucket. From there we create an AWS Glue database and an external table for querying the data. Lastly, we leverage Amazon Athena for querying data stored in the S3 bucket.
